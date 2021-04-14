@@ -228,7 +228,8 @@ a {
 }
 
 .title--decor {
-  text-align: center;
+  text-align: left;
+  margin-left: 600px;
 }
 
 .reason__inner {
@@ -251,8 +252,7 @@ a {
   background-color: #21062A;
   width: 785px;
   height: 507px;
-  padding-left: 185px;
-  padding-top: 23px;
+  padding: 23px 0 25px 185px;
 }
 
 .reason__content-box {
@@ -260,10 +260,12 @@ a {
 
 }
 
-.reason__box-item {}
+.reason__box-item {
+  color: #fff;
+  margin-bottom: 20px;
+}
 
 .reason__item-title {
-  color: #fff;
   font-weight: 400;
   font-size: 36px;
   line-height: 53px;
@@ -271,7 +273,6 @@ a {
 }
 
 .reason__item-subtitle {
-  color: #fff;
   font-weight: 300;
   font-size: 24px;
   line-height: 36px;
