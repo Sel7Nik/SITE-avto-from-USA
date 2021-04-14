@@ -1,0 +1,211 @@
+https://youtu.be/xVxAR2fMQoU?t=1129
+18:49
+В верхней части Heder две ссылки - логотип и номер телефона
+
+Логотип - это ссылка у которой внутри изображение.
+      <a class="logo" href="#">
+        <img class="logo__img" src="" alt="">
+      </a>
+
+Номер телефона - это просто ссылка
+      <a class="phone" href="tel:380505556677">+38 (050) 555 66 77</a>
+
+
+https://youtu.be/xVxAR2fMQoU?t=2199
+36:39
+кнопка как ссылка( не каждая кнопка button) при нажатии плавно перемещается по странице на соответствующий раздел.
+Если есть несколько одинаковых кнопок на проекте - надо делать блоком.
+Текст кнопки внутрь ссылки.
+       <a class="button" href="">ТЕКСТ КНОПКИ</a>
+
+https://youtu.be/xVxAR2fMQoU?t=2310
+38:30
+Иконки соцсетей оборачиваем в отдельный div.
+Каждая иконка - это ссылка. Внутри изображение с иконкой
+        <a class="header__social-link" href="№">
+          <img class="header__social-img" src="images/icon/instagram.svg" alt="instagram icon">
+        </a>
+Как вариант можно использовать ссылки через список ul>li 
+
+https://youtu.be/xVxAR2fMQoU?t=2598
+43:18
+Вставка картинки - обычным образом
+      <img class="header__images" src="images/ford-mustang.png" alt="ford mustang">
+
+https://youtu.be/xVxAR2fMQoU?t=2751
+45:51
+CSS стили для header
+
+
+https://youtu.be/xVxAR2fMQoU?t=2881
+48:01
+Обнуление всех встроеных стилей user agent при помощи подключаемого в header файла reset.css
+       <link rel="stylesheet" href="css/reset.css">
+
+https://youtu.be/xVxAR2fMQoU?t=3082
+51:22
+модель верстки
+      box-sizing: border-box;
+
+https://youtu.be/xVxAR2fMQoU?t=3184
+53:04
+Для header обычно указывается только фон, иногда размер.
+      background-image: url(../images/header-bg-img.jpg);
+Чтобы изображение не повторялось
+      background-repeat: no-repeat;
+Чтобы растянуть изображение на всю область
+      background-size: cover;
+Чтобы отцентрировать изображение верх по вертикале и центр по горизонтале
+      background-position: top center;
+Задать минимальную высоту
+        min-height: 700px;
+
+В hesder так же можно указать цвет основного текста
+        color: #fff;
+
+https://youtu.be/xVxAR2fMQoU?t=3509
+58:29
+Стили для body : стандартный размер шрифта, какой шрифт используется, толщина, начертание, высота строки и др.
+
+
+https://youtu.be/xVxAR2fMQoU?t=3681
+1:01:21
+STYLE KIT
+
+https://youtu.be/xVxAR2fMQoU?t=3788
+1:03:08
+Подключение шрифтов через https://fonts.google.com/
+
+https://youtu.be/xVxAR2fMQoU?t=3939
+1:05:39
+У ссылок надо отключить свойства по умолчанию
+      text-decoration: none;      убрать подчеркивание
+      color: inherit;             цвет как у родителя
+      display :inline-block;      поведение как блочно-строчный элемент
+
+https://youtu.be/xVxAR2fMQoU?t=4065
+1:07:45
+Контейнер <div class="container"></div>
+      max-width: 1200px;      ограничение максимальной ширины
+      margin: 0 auto;         центрирование по горизонтали
+      padding: 0 10px;        внутренние отступы текста
+Задав контейнеру padding надо увеличить ширину контейнера на padding*2
+
+https://youtu.be/xVxAR2fMQoU?t=4407
+1:13:27
+Стилим header__top с логотипом и номером телефона
+Отодвигаем на величину отступа: сверху полный размер, снизу примерно половину
+
+https://youtu.be/xVxAR2fMQoU?t=4479
+1:14:39
+Раздвинуть элементы по сторонам
+      display: flex;             изменение поведения элементом
+      justify-content: space-between;   раздвинуть по сторонам
+      align-items: center;              выравнивание на одной линии по высоте
+
+https://youtu.be/xVxAR2fMQoU?t=5090
+1:24:50
+Стилим button 
+      font-style: 14px;
+      line-height: 21px;
+      text-transform: uppercase;
+      padding: 14px 54px 15px;
+      background-color: #5A0D67;
+По БЭМу этой кнопке не задаются внешние отступы, т.к. это блок и он будет использоваться в других местах
+
+https://youtu.be/xVxAR2fMQoU?t=5358
+1:29:18
+Стилим ссылки с логотипами соцсетей - выравнивание по линии по высоте для всего блока
+      display: flex;
+      align-items: center;
+Для каждого элемента задаются отступы между собой, а для общего сдвига отступ задается для всего блока
+
+https://youtu.be/xVxAR2fMQoU?t=5517
+1:31:57
+Размещение картинки в блоке и половина в следующем блоке
+      position: absolute;     чтобы отвязать от родителя? а родителю задать position: relative;
+
+https://youtu.be/xVxAR2fMQoU?t=6695
+1:51:35
+Стилизация button при наведении и active
+Для hover меняем цвет шрифта и фона
+      background-color: #fff;
+      color: #5A0D67;
+И чтобы это было не так резко для самого button указать
+      transition: all .5s;
+
+
+https://youtu.be/xVxAR2fMQoU?t=6857
+1:54:17
+Новая секция НАШИ УСЛУГИ
+Стандартно
+      <section class="services">
+      <div class="container">
+Заголовок оформляется одним классом, т.к. будет еще использоваться на сайте
+       <h2 class="title">НАШИ УСЛУГИ</h2>
+Все остальное содержимое оборачивается в отдельный блок
+      <div class="services__inner">
+Внутри него будет разделение на два блока с содержимым и списком
+      <div class="services__content">
+      <ol class="services__list">
+Первый блок состоит из двух разделов с заголовком и текстом каждый
+      <div class="services__content-box">
+И button такая же как и в предыдущей секции
+
+box  содержит заголовок и обертку для параграфов в првом два, во втором один
+      <h6 class="services__content-title"></h6>
+      <div class="services__content-textbox">
+        <p class="services__content-text">
+И просто копируем ссылку button в конец первого блока        
+
+https://youtu.be/xVxAR2fMQoU?t=7632
+2:07:12
+Верстаем правый блок список
+Внутри ol шесть пунктов списка
+      <li class="services__item"></li>
+А внутри li два параграфа с заголовком и описанием
+      <p class="services__item-title"></p>
+      <p class="services__item-text"></p>
+
+https://youtu.be/xVxAR2fMQoU?t=7997
+2:13:17
+Стилизация сектора услуг 
+title оформляется как отдельный блок
+черта справа от title оформляется через ::after
+
+https://youtu.be/xVxAR2fMQoU?t=8520
+2:22:00
+services__inner  делит контент на две части, поэтому
+
+https://youtu.be/xVxAR2fMQoU?t=8808
+2:26:48
+Стилизация кнопки доп класс 
+      button--decor
+
+https://youtu.be/xVxAR2fMQoU?t=9609
+2:40:09
+Стилизация списка
+удаление номеров       list-style: none;
+Дальше интересно
+      counter-reset
+      counter-increment
+      content
+Это надо использовать, что бы задать префиксный элемент списка
+
+https://youtu.be/xVxAR2fMQoU?t=10023
+2:47:03
+Стилизация цифр списка - поворот, сдвиг и др
+Стандартно родителю relative , а hover absolute
+Для поворота используется свойство rotate
+      transform: rotate(-90deg);
+
+https://youtu.be/xVxAR2fMQoU?t=10160
+2:49:20
+Эффект при наведении
+      .services__item:hover .services__item-title
+Запись означает, что при наведении на первую часть вторая изменяется
+      .services__item:hover::before
+Эта запись говорит, что при наведении на элемент изменяется его псевдоэлемент
+Для плавного применения эффекта при наведении для основного всего элемента используется
+      transition: all .5s;
+Так же его надо применять дополнительно для всех  before и др. псевдоэлементов
