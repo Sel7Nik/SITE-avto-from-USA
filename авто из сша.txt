@@ -246,3 +246,8 @@ https://youtu.be/XAf8V9wqF2U
  https://youtu.be/XAf8V9wqF2U?t=3845
  1:04:05
  Медиазапрос для ховерного эффекта
+
+
+ https://youtu.be/XAf8V9wqF2U?t=6199
+ 1:43:19
+ Адаптация слайдера в main.JS  файле
