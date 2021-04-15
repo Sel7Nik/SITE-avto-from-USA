@@ -215,6 +215,18 @@ https://youtu.be/xVxAR2fMQoU?t=10160
 
 
 
-https://youtu.be/F-PYmZOSW-g?t=4996
-1:23:16
+https://youtu.be/F-PYmZOSW-g?t=5313
+1:28:33
 Контакты и форма оставить заявку
+
+
+https://youtu.be/F-PYmZOSW-g?t=6209
+1:43:29
+Чтобы в списке росле 10 элемента не дописывался 0 надо использовать формулу обращения к первым 10 элементам
+                  nth-child()
+
+
+
+https://youtu.be/F-PYmZOSW-g?t=6804
+1:53:24
+Стилизация формы
