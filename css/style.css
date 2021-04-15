@@ -635,6 +635,20 @@ a {
   .reason__inner {
     margin-bottom: 50px;
   }
+
+  .footer__inner {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    padding: 20px 0;
+
+  }
+
+  .footer__social {
+    width: 100%;
+    justify-content: center;
+    margin: 25px 0;
+  }
 }
 
 
