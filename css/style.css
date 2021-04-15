@@ -534,7 +534,35 @@ a {
   .services__item:hover {
     width: 100%;
   }
+
+  .contacts__inner {
+    display: block;
+    text-align: center;
+  }
+
+  .contacts__list {
+    margin-bottom: 35px;
+  }
+
+  .contacts__input {
+    width: 100%;
+  }
+
+  .contacts__btn {
+    margin-top: 20px;
+  }
+
+  .contacts__title {
+    text-align: center;
+    margin-left: 0;
+  }
 }
+
+
+
+
+
+
 
 @media(max-width: 768px) {
   .reason__inner {
@@ -553,6 +581,8 @@ a {
     width: 100%;
   }
 }
+
+
 
 
 
@@ -611,6 +641,8 @@ a {
 
 
 
+
+
 @media(max-width: 520px) {
   .header__top {
     flex-direction: column;
@@ -652,7 +684,15 @@ a {
   .carousel .slick-dots li button {
     width: 25px;
   }
+
+  .contacts__form {
+    padding: 50px 10px 57px;
+  }
 }
+
+
+
+
 
 
 
