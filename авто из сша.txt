@@ -251,3 +251,8 @@ https://youtu.be/XAf8V9wqF2U
  https://youtu.be/XAf8V9wqF2U?t=6199
  1:43:19
  Адаптация слайдера в main.JS  файле
+
+
+ https://youtu.be/XAf8V9wqF2U?t=8128
+ 2:15:28
+ Заливка на хостинг
